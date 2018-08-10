@@ -30,3 +30,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="frap129/Myself5"
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
